@@ -12,7 +12,7 @@ $ npm install
 ```
 $ npm start
 ```
-Then go http://localhost:8080
+Then open http://localhost:8080 in Chrome 42+
 
 ###Run production server:
 ```
@@ -21,4 +21,4 @@ $ cp {your server's private key and certs} tls/
 $ vi config/defalut.yaml  # Change the filenames in the tls/ dir if needed.
 $ sudo npm run https
 ```
-Then go https://flightplan.gree-dev.net
+Then open https://flightplan.gree-dev.net in Chrome 42+
