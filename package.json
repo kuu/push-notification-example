@@ -8,7 +8,7 @@
     "build": "cp src/*.js www/",
     "prestart": "npm run lint && npm run build",
     "start": "node index.js",
-    "startHTTPS": "NODE_ENV=production node index.js"
+    "https": "NODE_ENV=production node index.js"
   },
   "author": "Kuu Miyazaki",
   "license": "MIT",
