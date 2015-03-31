@@ -19,6 +19,6 @@ Then go http://localhost:8080
 $ mkdir tls
 $ cp {your server's private key and certs} tls/
 $ vi config/defalut.yaml  # Change the filenames in the tls/ dir if needed.
-$ sudo npm runHTTPS
+$ sudo npm run runHTTPS
 ```
 Then go https://flightplan.gree-dev.net
