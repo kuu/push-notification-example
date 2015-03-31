@@ -1,0 +1,4 @@
+# Config settings for NODE_ENV=development
+
+server:
+  port: 8080
